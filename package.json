@@ -1,0 +1,31 @@
+{
+  "name": "dom-sprite",
+  "version": "0.0.0",
+  "description": "Create a dom \"sprite\" from a sprite sheet and perform background animations",
+  "main": "index.js",
+  "dependencies": {
+    "css-translate": "^1.0.0",
+    "venfix": "^0.0.2",
+    "unitr": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MauriceButler/dom-sprite.git"
+  },
+  "keywords": [
+    "dom",
+    "sprite",
+    "animate",
+    "animation"
+  ],
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/dom-sprite/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/dom-sprite"
+}
