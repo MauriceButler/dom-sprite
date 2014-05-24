@@ -14,6 +14,7 @@ function Sprite(image){
         image.src = src;
     }
 
+    image = image.cloneNode();
     sprite.image = image;
 
     if(image.height > 0 || image.width > 0){
