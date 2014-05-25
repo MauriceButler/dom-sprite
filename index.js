@@ -33,7 +33,7 @@ Sprite.prototype.ready = function(){
     this.element.appendChild(this.image);
 };
 
-Sprite.prototype.animate = function(){
+Sprite.prototype.animate = function(callback){
 
     var sprite = this,
         theActualyFuckRightShit = parseFloat(this.element.style.width),
@@ -45,6 +45,9 @@ Sprite.prototype.animate = function(){
         sprite.image.style[venfix('transform')] = cssTranslate('3d', -theActualyFuckRightShit * currentStep, 0, 0);
         currentStep++;
         if(currentStep > steps){
+            if(callback){
+                callback();
+            }
             return;
         }
 
