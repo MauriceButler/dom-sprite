@@ -1,6 +1,6 @@
 {
   "name": "dom-sprite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a dom \"sprite\" from a sprite sheet and perform background animations",
   "main": "index.js",
   "dependencies": {
